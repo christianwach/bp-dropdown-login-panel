@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the BuddyPress Dropdown Login Panel package.
 msgid ""
 msgstr ""
-"Project-Id-Version: BuddyPress Dropdown Login Panel 3.0\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/bp-dropdown-login-panel\n"
-"POT-Creation-Date: 2015-03-12 14:50:08+00:00\n"
+"Project-Id-Version: BuddyPress Dropdown Login Panel 3.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bp-dropdown-login-panel\n"
+"POT-Creation-Date: 2015-11-17 16:27:46+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
 #: bp-dropdown-login-panel-content.php:80
-#: bp-dropdown-login-panel-content.php:294
+#: bp-dropdown-login-panel-content.php:290
 msgid "Logo"
 msgstr ""
 
@@ -68,7 +68,7 @@ msgstr ""
 
 #: bp-dropdown-login-panel-content.php:160
 #: bp-dropdown-login-panel-content.php:161
-#: bp-dropdown-login-panel-content.php:493
+#: bp-dropdown-login-panel-content.php:489
 msgid "Log out"
 msgstr ""
 
@@ -101,11 +101,11 @@ msgid "Groups"
 msgstr ""
 
 #: bp-dropdown-login-panel-content.php:191
-msgid "My Groups"
+msgid "Groups Directory"
 msgstr ""
 
 #: bp-dropdown-login-panel-content.php:194
-msgid "Join Groups"
+msgid "My Groups"
 msgstr ""
 
 #: bp-dropdown-login-panel-content.php:197
@@ -128,97 +128,94 @@ msgstr ""
 msgid "Friend Requests"
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:239
+#: bp-dropdown-login-panel-content.php:238
 msgid "Accept"
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:242
+#: bp-dropdown-login-panel-content.php:240
 msgid "Reject"
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:246
-msgid "More &rarr;"
+#: bp-dropdown-login-panel-content.php:243
+msgid "More"
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:260
+#: bp-dropdown-login-panel-content.php:256
 msgid "You have no pending friendship requests."
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:299
+#: bp-dropdown-login-panel-content.php:295
 msgid "Welcome to %s"
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:309
+#: bp-dropdown-login-panel-content.php:305
 msgid "Login or Signup to meet new friends, find out what's going on, and connect with others on the site."
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:348
-msgid "Sign Up Now"
+#: bp-dropdown-login-panel-content.php:344
+msgid "Create an Account"
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:349
-msgid "Registering for this site is easy. Just fill in the fields on the registration page and we will get a new account set up for you in no time."
+#: bp-dropdown-login-panel-content.php:345
+msgid "Registering for this site is easy. Just fill in the fields below, and we'll get a new account set up for you in no time."
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:350
+#: bp-dropdown-login-panel-content.php:346
 msgid "Register"
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:360
-msgid "Registration is closed"
+#: bp-dropdown-login-panel-content.php:356
+msgid "Registration"
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:361
+#: bp-dropdown-login-panel-content.php:357
 msgid "Sorry, you are not allowed to register by yourself on this site."
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:362
+#: bp-dropdown-login-panel-content.php:358
 msgid "You must either be invited by one of our team members or request an invitation by email."
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:387
-msgid "Login"
-msgstr ""
-
-#: bp-dropdown-login-panel-content.php:389
-msgid "Username"
-msgstr ""
-
-#: bp-dropdown-login-panel-content.php:392
-msgid "Password"
-msgstr ""
-
-#: bp-dropdown-login-panel-content.php:395
-msgid "Remember Me"
-msgstr ""
-
-#: bp-dropdown-login-panel-content.php:397
-#: bp-dropdown-login-panel-content.php:461
+#: bp-dropdown-login-panel-content.php:383
+#: bp-dropdown-login-panel-content.php:393
+#: bp-dropdown-login-panel-content.php:457
 msgid "Log In"
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:426
-msgid "Forgot Your Password?"
+#: bp-dropdown-login-panel-content.php:385
+msgid "Username"
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:427
+#: bp-dropdown-login-panel-content.php:388
+msgid "Password"
+msgstr ""
+
+#: bp-dropdown-login-panel-content.php:391
+msgid "Remember Me"
+msgstr ""
+
+#: bp-dropdown-login-panel-content.php:422
+msgid "Lost your password?"
+msgstr ""
+
+#: bp-dropdown-login-panel-content.php:423
 msgid "Username or E-mail:"
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:430
-msgid "A new password will be e-mailed to you."
+#: bp-dropdown-login-panel-content.php:426
+msgid "Please enter your username or email address. You will receive a link to create a new password via email."
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:431
-msgid "Retrieve"
+#: bp-dropdown-login-panel-content.php:427
+msgid "Get New Password"
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:464
-#: bp-dropdown-login-panel-content.php:500
+#: bp-dropdown-login-panel-content.php:460
+#: bp-dropdown-login-panel-content.php:496
 msgid "Close Panel"
 msgstr ""
 
-#: bp-dropdown-login-panel-content.php:497
+#: bp-dropdown-login-panel-content.php:493
 msgid "My Account"
 msgstr ""
 #. Plugin Name of the plugin/theme
@@ -230,7 +227,7 @@ msgid "http://haystack.co.uk"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Adds a dropdown login panel with account center to BuddyPress."
+msgid "A dropdown login panel with account centre for BuddyPress."
 msgstr ""
 
 #. Author of the plugin/theme
