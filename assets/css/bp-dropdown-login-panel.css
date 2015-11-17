@@ -1,0 +1,602 @@
+/*
+--------------------------------------------------------------------------------
+Clearfix
+--------------------------------------------------------------------------------
+*/
+.clear {
+	clear: both;
+	height: 0;
+	line-height: 0;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+.clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+Wrapper
+--------------------------------------------------------------------------------
+*/
+#bp-dropdown-login-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+Panel
+--------------------------------------------------------------------------------
+*/
+#bp-dropdown-login-panel {
+	width: 100%;
+	height: 280px;
+	color: #999;
+	background: #272727;
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+	display: none;
+	font-size: 14px;
+	overflow-y: scroll;
+}
+
+#bp-dropdown-login-panel h1 {
+	font-size: 1.6em;
+	padding: 5px 0 10px;
+	margin: 0;
+	color: white;
+	text-align: left;
+}
+
+#bp-dropdown-login-panel h2 {
+	font-size: 1.2em;
+	margin: 10px 0 5px;
+	padding: 0;
+	color: white;
+	text-align: left;
+}
+
+#bp-dropdown-login-panel p {
+	margin: 5px 0;
+	padding: 0;
+}
+
+#bp-dropdown-login-panel a {
+	text-decoration: none;
+	color: #65A1DE;
+}
+
+#bp-dropdown-login-panel a:hover {
+	color: #AFD7FF;
+}
+
+#bp-dropdown-login-panel a-lost-pwd {
+	display: block;
+	float: left;
+}
+
+#bp-dropdown-login-panel ul {
+	margin: 0 0 5px 0;
+	padding: 0;
+	line-height: 1.6em;
+	list-style: none;
+}
+
+#bp-dropdown-login-panel .content {
+	width: 924px;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: left;
+	font-size: 0.85em;
+}
+
+#bp-dropdown-login-panel.bsl-anon .content {
+	width: 724px;
+}
+
+#bp-dropdown-login-panel .content .bp-dropdown-login-left {
+	width: 280px;
+	float: left;
+	margin-bottom: 25px;
+	padding: 0 15px;
+	border-right: 1px solid #333;
+	min-height: 220px;
+}
+
+#bp-dropdown-login-panel .content .bsl-border {
+	border-left: 1px solid #333;
+}
+
+#bp-dropdown-login-panel .content .bsl-narrow {
+	width: 160px;
+}
+
+#bp-dropdown-login-panel .content .bsl-register,
+#bp-dropdown-login-panel .content .bsl-login-form,
+#bp-dropdown-login-panel .content .bsl-forgot {
+	width: 230px;
+}
+
+#bp-dropdown-login-panel .content form {
+	margin: 0 0 0 0;
+}
+
+#bp-dropdown-login-panel .content label {
+	float: left;
+	margin-top: 8px;
+	clear: both;
+	width: 280px;
+	display: block;
+}
+
+#bp-dropdown-login-panel .content input.bp-dropdown-login-field {
+	border: 1px #1A1A1A solid;
+	background: #414141;
+	margin-right: 5px;
+	margin-top: 4px;
+	width: 200px;
+	color: white;
+}
+
+#bp-dropdown-login-panel .content input.bp-dropdown-login-field:focus {
+	background: #545454;
+}
+
+#bp-dropdown-login-panel .content input.bt_login,
+#bp-dropdown-login-panel .content input.bt_register,
+a#regbtn {
+	display: block;
+	float: left;
+	clear: left;
+	height: 24px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+#bp-dropdown-login-panel .content input.bt_login {
+	width: 74px;
+	background: transparent url('../images/bt_login.png') no-repeat 0 0;
+	color: #111;
+}
+
+#bp-dropdown-login-panel .content input.bt_register, a#regbtn {
+	width: 94px;
+	color: white;
+	background: transparent url('../images/bt_register.png') no-repeat 0 0;
+}
+
+#bp-dropdown-login-panel .lost-pwd {
+	display: block;
+	float: left;
+	clear: right;
+	padding: 15px 5px 0;
+	font-size: 0.95em;
+	text-decoration: underline;
+}
+
+#bp-dropdown-login-panel .bp-dropdown-login-avatar {
+	display: block;
+	width: 120px;
+	height: 120px;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+Tab
+--------------------------------------------------------------------------------
+*/
+.bp-dropdown-login-tab {
+	background: url('../images/tab_b.png') repeat-x 0 0;
+	height: 42px;
+	position: relative;
+	top: 0;
+	z-index: 999;
+}
+
+.bp-dropdown-login-tab ul.bp-dropdown-login-login {
+	display: block;
+	position: relative;
+	float: right;
+	clear: right;
+	height: 42px;
+	width: auto;
+	font-weight: bold;
+	line-height: 42px;
+	margin: 0;
+	color: white;
+	font-size: 80%;
+	text-align: center;
+}
+
+.bp-dropdown-login-tab ul.bp-dropdown-login-login li.bp-dropdown-login-left {
+	background: url('../images/tab_l.png') no-repeat left 0;
+	height: 42px;
+	width: 30px;
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.bp-dropdown-login-tab ul.bp-dropdown-login-login li.bp-dropdown-login-right {
+	background: url('../images/tab_r.png') no-repeat left 0;
+	height: 42px;
+	width: 30px;
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.bp-dropdown-login-tab ul.bp-dropdown-login-login li {
+	text-align: left;
+	padding: 0 6px;
+	display: block;
+	float: left;
+	height: 42px;
+	background: url('../images/tab_m.png') repeat-x 0 0;
+}
+
+.bp-dropdown-login-tab ul.bp-dropdown-login-login li a {
+	color: #fff;
+}
+
+.bp-dropdown-login-tab ul.bp-dropdown-login-login li a:hover {
+	color: #ddd;
+}
+
+.bp-dropdown-login-tab .bp-dropdown-login-sep {
+	color: #414141;
+}
+
+.bp-dropdown-login-tab a.bp-dropdown-login-open,
+.bp-dropdown-login-tab a.bp-dropdown-login-close,
+.bp-dropdown-login-tab a.bp-dropdown-login-logout {
+	height: 20px;
+	line-height: 20px !important;
+	padding-left: 30px !important;
+	cursor: pointer;
+	display: block;
+	width: 100px;
+	position: relative;
+	top: 11px;
+}
+
+.bp-dropdown-login-tab a.bp-dropdown-login-open {
+	width: 120px;
+	background: url('../images/bt_open.png') no-repeat left 0;
+	color: #fff;
+}
+
+.bp-dropdown-login-tab a.bp-dropdown-login-close {
+	width: 120px;
+	background: url('../images/bt_close.png') no-repeat left 0;
+}
+
+.bp-dropdown-login-tab a.bp-dropdown-login-logout {
+	width: 80px;
+	background: url('../images/bt_close.png') no-repeat left 0;
+}
+
+.bp-dropdown-login-tab a:hover.bp-dropdown-login-open {
+	background: url('../images/bt_open.png') no-repeat left -19px;
+}
+
+.bp-dropdown-login-tab a:hover.bp-dropdown-login-close {
+	background: url('../images/bt_close.png') no-repeat left -19px;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+Random post
+--------------------------------------------------------------------------------
+*/
+.randompost {
+	font: 14px 'Century Gothic',Arial,Verdana,sans-serif;
+	color: #FFF;
+}
+
+.randompost {
+	font: 14px 'Century Gothic',Arial,Verdana,sans-serif;
+	color: #FFF;
+}
+
+#toggle {
+	text-align: center;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+Login Form
+--------------------------------------------------------------------------------
+*/
+#bp-dropdown-login-panel .content .bp-dropdown-login-left.bsl-login-form label {
+	float: none;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+Extras
+--------------------------------------------------------------------------------
+*/
+.bp-dropdown-login-msg {
+	float: left;
+	padding-right: 15px;
+	height: 48px;
+	line-height: 48px;
+	font-size: 14px;
+}
+
+div.bp-dropdown-login-msgs li {
+	width: 260px;
+	clear: both;
+	padding: 5px 0 0 0;
+	font-weight: bold;
+}
+
+div.bp-dropdown-login-message-subject p {
+	overflow: hidden;
+	width: 190px;
+}
+
+a#whitetext {
+	color: #fff;
+}
+
+a#avtext {
+	color: #fff;
+}
+
+#bp-dropdown-login-panel .button.bp-dropdown-login-button,
+#bp-dropdown-login-panel .button.bp-dropdown-login-button:hover,
+#bp-dropdown-login-panel .button.bp-dropdown-login-button:active {
+	text-shadow: none !important;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+Messages
+--------------------------------------------------------------------------------
+*/
+
+#bp-dropdown-login-panel h2.bp-dropdown-login-messages-header {
+	padding-top: 12px;
+	border-top: 1px dotted #fff;
+}
+
+.bp-dropdown-login-message-subject img {
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+}
+
+.bp-dropdown-login-message-meta {
+	clear: left;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+Responsiveness
+--------------------------------------------------------------------------------
+*/
+
+@media all and (max-width: 980px) {
+
+	/* anon */
+	#bp-dropdown-login-panel.bsl-anon {
+		height: 410px;
+	}
+
+	#bp-dropdown-login-panel.bsl-anon .content {
+		width: 670px;
+	}
+
+	#bp-dropdown-login-panel.bsl-anon .content .bp-dropdown-login-left.bsl-header {
+		width: 100%;
+		height: auto;
+		min-height: 0;
+		padding-bottom: 6px;
+		border: none;
+		border-bottom: 1px solid #333;
+	}
+
+	#bp-dropdown-login-panel.bsl-anon .content .bp-dropdown-login-left.bsl-register {
+		clear: left;
+	}
+
+	#bp-dropdown-login-panel.bsl-anon .content .bp-dropdown-login-left.bsl-register,
+	#bp-dropdown-login-panel.bsl-anon .content .bp-dropdown-login-left.bsl-login-form,
+	#bp-dropdown-login-panel.bsl-anon .content .bp-dropdown-login-left.bsl-forgot {
+		width: 49%;
+	}
+
+	#bp-dropdown-login-panel.bsl-anon .content .bp-dropdown-login-left.bsl-forgot {
+		border: none;
+	}
+
+	/* ------------------------------------------------------------ */
+
+	/* logged-in */
+	#bp-dropdown-login-panel.bsl-logged-in {
+		height: 460px;
+	}
+
+	#bp-dropdown-login-panel.bsl-logged-in .content {
+		width: 675px;
+	}
+
+	#bp-dropdown-login-panel.bsl-logged-in .content .bp-dropdown-login-left.bsl-header {
+		width: 500px;
+		height: auto;
+		min-height: 0;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border: none;
+	}
+
+	#bp-dropdown-login-panel.bsl-logged-in .content .bp-dropdown-login-left.bsl-avatar {
+		border: none;
+		border-left: 1px solid #333;
+		margin-bottom: 0;
+		min-height: 200px;
+	}
+
+	#bp-dropdown-login-panel.bsl-logged-in .content .bp-dropdown-login-left.bsl-profile,
+	#bp-dropdown-login-panel.bsl-logged-in .content .bp-dropdown-login-left.bsl-mentions,
+	#bp-dropdown-login-panel.bsl-logged-in .content .bp-dropdown-login-left.bsl-friends {
+		width: 33%;
+		min-height: 200px;
+		margin-bottom: 0;
+	}
+
+	#bp-dropdown-login-panel.bsl-logged-in .content .bp-dropdown-login-left.bsl-profile {
+		clear: left;
+	}
+
+	#bp-dropdown-login-panel.bsl-logged-in .content .bp-dropdown-login-left.bsl-friends {
+		border: none;
+	}
+
+	#bp-dropdown-login-panel .content .bsl-narrow {
+		width: 168px;
+	}
+
+}
+
+
+
+@media all and (max-width: 680px) {
+
+	/* anon */
+	#bp-dropdown-login-panel.bsl-anon {
+		height: 480px;
+	}
+
+	#bp-dropdown-login-panel.bsl-anon .content {
+		width: auto;
+	}
+
+	#bp-dropdown-login-panel .content .bp-dropdown-login-left.bsl-header,
+	#bp-dropdown-login-panel .content .bp-dropdown-login-left.bsl-register,
+	#bp-dropdown-login-panel .content .bp-dropdown-login-left.bsl-login-form,
+	#bp-dropdown-login-panel .content .bp-dropdown-login-left.bsl-forgot {
+		width: 49%;
+	}
+
+	/* ------------------------------------------------------------ */
+
+	/* logged-in */
+	#bp-dropdown-login-panel.bsl-logged-in .content {
+		width: 100%;
+	}
+
+	#bp-dropdown-login-panel.bsl-logged-in .content .bp-dropdown-login-left.bsl-header {
+		width: 66%;
+	}
+
+	#bp-dropdown-login-panel.bsl-logged-in .bsl-avatar {
+		width: 33%;
+	}
+
+	#bp-dropdown-login-panel.bsl-logged-in .bsl-avatar a {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+
+
+@media all and (max-width: 480px) {
+
+	/* anon */
+	#bp-dropdown-login-panel.bsl-anon .content {
+		padding-top: 0;
+	}
+
+	#bp-dropdown-login-panel.bsl-anon .content .bp-dropdown-login-left.bsl-header {
+		margin-bottom: 10px;
+		border-bottom: 1px solid #333;
+	}
+
+	#bp-dropdown-login-panel.bsl-anon .content .bp-dropdown-login-left.bsl-register,
+	#bp-dropdown-login-panel.bsl-anon .content .bp-dropdown-login-left.bsl-login-form,
+	#bp-dropdown-login-panel.bsl-anon .content .bp-dropdown-login-left.bsl-forgot {
+		float: none;
+		clear: left;
+		width: 100%;
+		min-height: 0;
+		margin-bottom: 15px;
+		border-bottom: 1px solid #333;
+	}
+
+	#bp-dropdown-login-panel.bsl-anon .content .bp-dropdown-login-left.bsl-register {
+		padding-bottom: 10px;
+	}
+
+	#bp-dropdown-login-panel.bsl-anon .content .bp-dropdown-login-left.bsl-login-form {
+		padding-bottom: 10px;
+	}
+
+	#bp-dropdown-login-panel.bsl-anon .content .bp-dropdown-login-left.bsl-forgot {
+		padding-top: 0;
+	}
+
+	/* ------------------------------------------------------------ */
+
+	/* logged-in */
+
+}
+
+
+
