@@ -61,9 +61,6 @@ class BP_Dropdown_Login_Panel {
 		// add translation
 		add_action( 'plugins_loaded', array( $this, 'translation' ) );
 
-		// --<
-		return $this;
-
 	}
 
 
