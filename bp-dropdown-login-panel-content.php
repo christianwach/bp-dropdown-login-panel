@@ -421,7 +421,7 @@ function bp_dropdown_login_panel_show_forgot() {
 
 			<h2><?php _e( 'Lost your password?' ); ?></h2>
 			<label class="bp-dropdown-login-grey" for="user_login"><?php _e( 'Username or E-mail:' ); ?></label>
-			<input class="field bp-dropdown-login-field" type="text" name="user_login" id="user_login_FP" value="<?php echo wp_specialchars(stripslashes($user_login), 1) ?>" size="23" />
+			<input class="field bp-dropdown-login-field" type="text" name="user_login" id="user_login_FP" value="" size="23" />
 			<div class="clear"></div>
 			<p><?php _e( 'Please enter your username or email address. You will receive a link to create a new password via email.' ); ?></p>
 			<input type="submit" name="submit" value="<?php _e( 'Get New Password' ); ?>" class="bp-dropdown-login-button" />
