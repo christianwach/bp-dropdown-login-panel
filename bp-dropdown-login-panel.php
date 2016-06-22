@@ -41,8 +41,9 @@ if ( !defined( 'BP_DROPDOWN_LOGIN_PATH' ) ) {
 /**
  * Plugin wrapper class.
  *
+ * @since 3.0.1
+ *
  * @package BP_Dropdown_Login_Panel
- * @subpackage Core
  */
 class BP_Dropdown_Login_Panel {
 
@@ -51,7 +52,7 @@ class BP_Dropdown_Login_Panel {
 	/**
 	 * Instantiates this object.
 	 *
-	 * @return object $this The BP_Dropdown_Login_Panel instance
+	 * @since 3.0
 	 */
 	public function __construct() {
 
@@ -68,7 +69,7 @@ class BP_Dropdown_Login_Panel {
 	/**
 	 * Initialises this object.
 	 *
-	 * @return void
+	 * @since 3.0
 	 */
 	public function initialise() {
 
@@ -91,7 +92,7 @@ class BP_Dropdown_Login_Panel {
 	/**
 	 * Loads translation, if present.
 	 *
-	 * @return void
+	 * @since 3.0
 	 */
 	public function translation() {
 
@@ -121,7 +122,7 @@ class BP_Dropdown_Login_Panel {
 	/**
 	 * Add HTML to page.
 	 *
-	 * @return void
+	 * @since 3.0
 	 */
 	public function show_panel() {
 
@@ -135,7 +136,7 @@ class BP_Dropdown_Login_Panel {
 	/**
 	 * Add our script and style resources.
 	 *
-	 * @return void
+	 * @since 3.0
 	 */
 	public function enqueue_assets() {
 

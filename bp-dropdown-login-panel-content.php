@@ -1,7 +1,9 @@
 <?php
 
 /**
- * Show HTML Header
+ * Show HTML Header.
+ *
+ * @since 3.0
  */
 function bp_dropdown_login_panel_show_header() {
 
@@ -61,7 +63,9 @@ function bp_dropdown_login_panel_show_header() {
 
 
 /**
- * Show HTML Header for Logged In users
+ * Show HTML Header for Logged In users.
+ *
+ * @since 3.0
  */
 function bp_dropdown_login_panel_show_header_user() {
 
@@ -273,7 +277,9 @@ function bp_dropdown_login_panel_show_header_user() {
 
 
 /**
- * Show HTML Header for Anonymous users
+ * Show HTML Header for Anonymous users.
+ *
+ * @since 3.0
  */
 function bp_dropdown_login_panel_show_header_anon() {
 
@@ -328,7 +334,9 @@ function bp_dropdown_login_panel_show_header_anon() {
 
 
 /**
- * Show Register Panel
+ * Show Register Panel.
+ *
+ * @since 3.0
  */
 function bp_dropdown_login_panel_show_register() {
 
@@ -370,7 +378,9 @@ function bp_dropdown_login_panel_show_register() {
 
 
 /**
- * Show Login Form Panel
+ * Show Login Form Panel.
+ *
+ * @since 3.0
  */
 function bp_dropdown_login_panel_show_login_form() {
 
@@ -404,7 +414,9 @@ function bp_dropdown_login_panel_show_login_form() {
 
 
 /**
- * Show Forgot Password Panel
+ * Show Forgot Password Panel.
+ *
+ * @since 3.0
  */
 function bp_dropdown_login_panel_show_forgot() {
 
@@ -440,7 +452,9 @@ function bp_dropdown_login_panel_show_forgot() {
 
 
 /**
- * Show Login Panel
+ * Show Login Panel.
+ *
+ * @since 3.0
  */
 function bp_dropdown_login_panel_show_login() {
 
@@ -474,7 +488,9 @@ function bp_dropdown_login_panel_show_login() {
 
 
 /**
- * Show Logout Panel
+ * Show Logout Panel.
+ *
+ * @since 3.0
  */
 function bp_dropdown_login_panel_show_logout() {
 
