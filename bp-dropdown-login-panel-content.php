@@ -502,8 +502,8 @@ function bp_dropdown_login_panel_show_logout() {
 		<ul class="bp-dropdown-login-login">
 			<li class="bp-dropdown-login-left">&nbsp;</li>
 			<!-- Logout -->
-			<li><a class="bp-dropdown-login-logout" href="<?php echo wp_logout_url( get_permalink() ); ?>" rel="nofollow" title="<?php _e( 'Log out' ); ?>"><?php _e( 'Log out' ); ?></a></li>
-			<li class="bp-dropdown-login-sep">|</li>
+			<!--<li><a class="bp-dropdown-login-logout" href="<?php echo wp_logout_url( get_permalink() ); ?>" rel="nofollow" title="<?php _e( 'Log out' ); ?>"><?php _e( 'Log out' ); ?></a></li>
+			<li class="bp-dropdown-login-sep">|</li>-->
 			<li id="bp-dropdown-login-toggle">
 				<a id="bp-dropdown-login-open" class="bp-dropdown-login-open" href="#"><?php
 					_e( 'My Account', 'buddypress' );
